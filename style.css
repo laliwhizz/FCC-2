@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+h1 {
+  color: rgb(63, 25, 53);
+  line-height: 1;
+}
+
+#description {
+  color: rgb(66, 39, 66);
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/64/17/7c/64177c90b5d203aef17d722374e79ea3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(240, 152, 240, 0.7);
+}
+
+.ti {
+  text-align: center;
+  font-family: Tahoma;
+  padding: 15px;
+  margin: 30px;
+}
+
+form {
+  background-color: rgba(173, 89, 135, 0.5);
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .form-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    max-width: 720px;
+  }
+}
+
+label,
+p {
+  color: azure;
+  font-family: Tahoma;
+  line-height: 1.2;
+}
+
+input,
+select,
+textarea {
+  line-height: 1;
+  background-color: rgb(116, 68, 112);
+  padding: 5px;
+  border-radius: 3px;
+  border-color: white;
+  border-style: none;
+  color: thistle;
+}
+
+option {
+  color: thistle;
+}
+
+#submit {
+  background-color: rgb(150, 20, 139);
+  color: whitesmoke;
+  padding: 10px;
+  border-color: thistle;
+  border-style: solid;
+  cursor: pointer;
+}
+
+fieldset {
+  padding: 5px;
+  border-color: thistle;
+  border-style: solid;
+  border-radius: 2px;
+}

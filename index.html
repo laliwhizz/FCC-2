@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  
+  <div class="container">
+
+    <div class="ti">
+    <h1 id="title">ICE-CREAM</h1>
+    <P id="description">"Let us know your experience about eating ice-cream"</P>
+    </div>
+    
+    <div class="form-container">
+      <form id="survey-form">
+        
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter name" required><br>
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter mail address" required>
+        <br>
+
+        <label for="number" id="number-label">Age&nbsp;(*optional)</label>
+        <input type="number" id="number" min="10" max="100" placeholder="number"> <br>
+
+        <label for="flavour" id="">Choose your favorite flavour</label>
+        <select name="flavour" id="dropdown">
+          <option value="vanilla">Vanilla</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="butterscotch">Butterscotch</option>
+          <option value="mint-chocolate">Mint-Chocolate</option>
+          <option value="mango">Mango</option>
+          <option value="pista">Pista</option>
+        </select>
+        <br>
+
+        <fieldset>
+          <p class="la">Which style of ice-cream do you like? <br>
+          <input type="radio" id="rad" name="Which style of ice-cream do you like?" value="cone ice">Cone-Ice
+          <br>
+          <input type="radio" id="rad" name="Which style of ice-cream do you like?" value="cup ice">Cup-Ice
+          </p>
+        </fieldset>
+        <br>
+        
+        <fieldset>
+          <p class="la">In which seasons you prefer eating ice-creams? <br>
+            <input type="checkbox" id="" value="summer">Summer &nbsp;
+            <input type="checkbox" id="" value="winter">Winter &nbsp;
+            <input type="checkbox" id="" value="rainy">Rainy &nbsp;
+            <input type="checkbox" id="" value="autumn">Autumn &nbsp;
+          </p>
+        </fieldset>
+        <br>
+
+        <label for="feedback">How did you like this survey page?</label>
+        <textarea name="feedback" id="" cols="30" rows="10" placeholder="Enter your comments....."></textarea><br>
+
+        <button id="submit">Submit</button>
+
+      </form>
+
+    </div>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
